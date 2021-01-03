@@ -1,5 +1,7 @@
 # Phlash
 
+![Image](files/graphics/phlash-logo-small.png?raw=true)
+
 Phlash is a very simple PHP flash messages library. Phlash does not define how your flash messages look or whether you use javascript to close them or not. Instead, Phlash just provides the very raw tools to quickly add and get flash messages.
 
 ## Requirements
@@ -8,7 +10,7 @@ Phlash is a very simple PHP flash messages library. Phlash does not define how y
 
 ## Features
 
-* Flash messagse
+* Flash messages
     * Add one or more flash messages with a type
         * Define your own types like warning, info, danger or anything you desire
     * Get 
