@@ -44,6 +44,7 @@ class PhlashTest extends TestCase
 
         $this->assertNotEmpty($flashMessages);
         $this->assertEquals(count($flashMessages), 1);
+        $this->assertEquals($flashMessages[0]->id, 0);
         $this->assertEquals($flashMessages[0]->type, "info");
         $this->assertEquals($flashMessages[0]->message, "Please log in to continue");
 
@@ -62,8 +63,10 @@ class PhlashTest extends TestCase
 
         $this->assertNotEmpty($flashMessages);
         $this->assertEquals(count($flashMessages), 2);
+        $this->assertEquals($flashMessages[0]->id, 0);
         $this->assertEquals($flashMessages[0]->type, "info");
         $this->assertEquals($flashMessages[0]->message, "Please log in to continue");
+        $this->assertEquals($flashMessages[1]->id, 1);
         $this->assertEquals($flashMessages[1]->type, "error");
         $this->assertEquals($flashMessages[1]->message, "There was a problem processing your request");
 
