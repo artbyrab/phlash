@@ -91,5 +91,6 @@ For more information on using Phlash have a read of the documentation and guides
 * [Dismissable Messages](documents/dismissable-messages.md)
 * [Example](documents/example.md)
 * [Flash message types](documents/flash-message-types.md)
+* [PHP Compatability Checks](documents/php-compatability-checks.md)
 * [Running Tests](documents/running-tests.md)
 * [Starting a PHP session](documents/starting-a-php-session.md)
