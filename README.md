@@ -6,7 +6,7 @@ Phlash is a very simple PHP flash messages library. Phlash does not define how y
 
 ## Requirements
 
-* PHP 7
+* PHP 5.6+
 
 ## Features
 
