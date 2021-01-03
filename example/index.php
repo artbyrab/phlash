@@ -120,6 +120,7 @@ Phlash::add("danger", "See it's hard to stop!");
     <body>
         <div class="content">
             <h1>Phlash</h1>
+            <img src="../files/graphics/phlash-logo-small.png" />
             <h2>A PHP flash message library</h2>
             <p>This is an example of Phlash:</p>
             <?php if (Phlash::get() !== false) { ?>
