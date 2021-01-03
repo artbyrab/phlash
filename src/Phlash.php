@@ -49,6 +49,7 @@ class Phlash
      *  [
      *      [0] => stdClass Object
      *          (
+    *               [id] => 0
      *              [timestamp] => 1609671469
      *              [type] => info
      *              [message] => Please log in to continue
@@ -56,6 +57,7 @@ class Phlash
      *
      *      [1] => stdClass Object
      *          (
+     *              [id] => 1
      *              [timestamp] => 1609671469
      *              [type] => error
      *              [message] => There was a problem processing your request
